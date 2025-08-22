@@ -116,7 +116,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,126" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;Start processing...&quot;]" />
+    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="452,126" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;Start processing version2.&quot;]" />
     <If Condition="[UiPathEventConnector.Length &gt; 0]" DisplayName="Check if connector argument was provided" sap:VirtualizedContainerService.HintSize="452,805" sap2010:WorkflowViewState.IdRef="If_2">
       <If.Then>
         <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="450,498" sap2010:WorkflowViewState.IdRef="Sequence_10">
